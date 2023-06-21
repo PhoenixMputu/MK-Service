@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
     "eslint": "8.43.0",
@@ -17,6 +20,8 @@
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.4.6",
-    "eslint-config-prettier": "^8.8.0"
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
   }
 }
