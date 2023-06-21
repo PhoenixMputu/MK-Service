@@ -9,7 +9,8 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "format": "prettier --check --ignore-path .gitignore .",
-    "format:fix": "prettier --write --ignore-path .gitignore ."
+    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "eslint": "8.43.0",
@@ -22,6 +23,8 @@
     "@next/eslint-plugin-next": "^13.4.6",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.8"
+    "husky": "^8.0.0",
+    "prettier": "^2.8.8",
+    "pretty-quick": "^3.1.3"
   }
 }
