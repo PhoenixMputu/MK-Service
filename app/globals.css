@@ -15,3 +15,7 @@ a {
   color: initial;
   text-decoration: none;
 }
+
+body {
+  position: relative !important;
+}

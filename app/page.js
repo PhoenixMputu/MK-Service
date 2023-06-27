@@ -10,6 +10,7 @@ import instagram from './assets/instagram.svg'
 import twitter from './assets/twitter.svg'
 import line_bar from './assets/line-1.svg'
 import heroImage from './assets/hero-image.svg'
+import menu from './assets/menu.svg'
 
 export default function Home() {
   return (
@@ -17,17 +18,25 @@ export default function Home() {
       <header className={styles.header}>
         <nav className={styles.nav}>
           <Image alt="Logo MK Service" height={100} src={logo} width={102} />
+          <input className={styles.header_input} id="check" type="checkbox" />
+          <label className={styles.header_label} for="check">
+            <Image alt="Icon Menu" height={20} src={menu} width={20} />
+          </label>
           <ul className={styles.nav_links}>
-            <li>
+            <li className={styles.link}>
               <a href="#hero">Accueil</a>
             </li>
-            <li>
-              <a href="#Services">Services</a>
+            <li className={styles.link}>
+              <a className={styles.link} href="#Services">
+                Services
+              </a>
             </li>
-            <li>
-              <a href="#Portfolio">Portfolio</a>
+            <li className={styles.link}>
+              <a className={styles.link} href="#Portfolio">
+                Portfolio
+              </a>
             </li>
-            <li>
+            <li className={styles.link}>
               <a href="#Contact">Contact</a>
             </li>
           </ul>

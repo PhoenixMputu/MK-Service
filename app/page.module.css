@@ -11,6 +11,11 @@
   flex-wrap: wrap;
 }
 
+.header_label,
+.header_input {
+  display: none !important;
+}
+
 .nav_links {
   display: flex;
   flex-direction: row;
@@ -105,4 +110,46 @@
 .links_network img[alt='Line bar'] {
   opacity: 0.15000000596046448;
   background: #000;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 0 2rem !important;
+    height: 50px;
+    position: relative;
+  }
+  .nav img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .nav_links {
+    display: none;
+  }
+
+  .header_input {
+    display: block !important;
+    visibility: hidden;
+  }
+
+  .header_label {
+    display: block !important;
+  }
+
+  .header_input:checked ~ .nav_links {
+    display: block;
+    position: absolute;
+    top: 50px;
+    width: 100% !important;
+    left: 0;
+    background-color: #fff;
+    text-align: center;
+    z-index: 99;
+    height: 95vh;
+    gap: 2rem !important;
+  }
+
+  .header_input:checked ~ .nav_links .link {
+    margin-top: 2rem !important;
+  }
 }
