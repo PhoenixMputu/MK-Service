@@ -112,6 +112,114 @@
   background: #000;
 }
 
+.service_section {
+  /* position: relative; */
+  background: #f3f4f4 !important;
+  /* height: 800px; */
+}
+
+.rameau {
+  opacity: 0.10000000149011612;
+  position: absolute;
+  top: 800px;
+  left: 29px;
+  background: none;
+  z-index: 9;
+}
+
+.tor1 {
+  opacity: 0.10000000149011612;
+  position: absolute;
+  bottom: -1%;
+  right: -10%;
+  background: none;
+  z-index: none;
+  transform: translate(-1%, -10%);
+}
+
+.rameauInvercer {
+  opacity: 0.10000000149011612;
+  position: absolute;
+  top: 800px;
+  right: 183px;
+  background: none;
+  z-index: 9;
+}
+
+.service_title {
+  color: #000;
+  font-size: 48px;
+  font-family: David Libre;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center !important;
+  padding: 2rem 0 !important;
+}
+
+.service_description {
+  color: #5c6574;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  width: 376px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.service_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3rem 2rem;
+  align-items: center;
+  padding: 60px 0 0 0;
+}
+
+.service_item {
+  width: 22%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 60px 20px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  z-index: 9;
+  position: relative;
+}
+
+.service_item_image {
+  position: absolute;
+  top: -15%;
+  left: 15%;
+  transform: translate(50%, -20%);
+}
+
+.service_item_title {
+  margin-top: 2rem;
+  color: #101a24;
+  text-align: center;
+  font-size: 16px;
+  font-family: David Libre;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 1.5rem;
+}
+
+.service_item_description {
+  color: #5c6574;
+  text-align: center;
+  font-size: 13px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
 @media screen and (max-width: 800px) {
   .header {
     padding: 0 2rem !important;

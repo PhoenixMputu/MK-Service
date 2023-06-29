@@ -11,6 +11,10 @@ import twitter from './assets/twitter.svg'
 import line_bar from './assets/line-1.svg'
 import heroImage from './assets/hero-image.svg'
 import menu from './assets/menu.svg'
+import rameau from './assets/rameau.svg'
+import rameauInvercer from './assets/invercer-rameau.svg'
+import tor from './assets/tor.svg'
+import dish from './assets/dish.png'
 
 export default function Home() {
   return (
@@ -42,7 +46,7 @@ export default function Home() {
           </ul>
         </nav>
       </header>
-      <main>
+      <main className={styles.main}>
         <section className={styles.hero} id="hero">
           <Image
             alt="Background Circle"
@@ -113,6 +117,113 @@ export default function Home() {
           </div>
           <div className={styles.hero_image}>
             <Image alt="Line bar" height={500} src={heroImage} width={400} />
+          </div>
+        </section>
+        <section className={styles.service_section}>
+          <Image
+            alt="Background Rameau"
+            className={styles.rameau}
+            height={300}
+            src={rameau}
+            width={400}
+          />
+          <Image
+            alt="Background Rameau Invercer"
+            className={styles.rameauInvercer}
+            height={150}
+            src={rameauInvercer}
+            width={270}
+          />
+          <h2 className={styles.service_title}>Nos Services</h2>
+          <p className={styles.service_description}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt.
+          </p>
+          <div className={styles.service_container}>
+            <div className={styles.service_item}>
+              <Image
+                alt="Background Oignon"
+                className={styles.tor1}
+                height={102}
+                src={tor}
+                width={100}
+              />
+              <Image
+                alt="Service"
+                className={styles.service_item_image}
+                height={102}
+                src={dish}
+                width={100}
+              />
+              <h3 className={styles.service_item_title}>Lumpia with Suace</h3>
+              <p className={styles.service_item_description}>
+                Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+            </div>
+            <div className={styles.service_item}>
+              <Image
+                alt="Background Oignon"
+                className={styles.tor1}
+                height={102}
+                src={tor}
+                width={100}
+              />
+              <Image
+                alt="Service"
+                className={styles.service_item_image}
+                height={102}
+                src={dish}
+                width={100}
+              />
+              <h3 className={styles.service_item_title}>Lumpia with Suace</h3>
+              <p className={styles.service_item_description}>
+                Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+            </div>
+            <div className={styles.service_item}>
+              <Image
+                alt="Background Oignon"
+                className={styles.tor1}
+                height={102}
+                src={tor}
+                width={100}
+              />
+              <Image
+                alt="Service"
+                className={styles.service_item_image}
+                height={102}
+                src={dish}
+                width={100}
+              />
+              <h3 className={styles.service_item_title}>Lumpia with Suace</h3>
+              <p className={styles.service_item_description}>
+                Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+            </div>
+            <div className={styles.service_item}>
+              <Image
+                alt="Background Oignon"
+                className={styles.tor1}
+                height={102}
+                src={tor}
+                width={100}
+              />
+              <Image
+                alt="Service"
+                className={styles.service_item_image}
+                height={102}
+                src={dish}
+                width={100}
+              />
+              <h3 className={styles.service_item_title}>Lumpia with Suace</h3>
+              <p className={styles.service_item_description}>
+                Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+            </div>
           </div>
         </section>
       </main>
