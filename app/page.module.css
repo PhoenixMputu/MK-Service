@@ -276,8 +276,10 @@
   .circle,
   .fleur,
   .sheet,
-  .sheet_1 {
-    display: none;
+  .sheet_1,
+  .rameau,
+  .rameauInvercer {
+    display: none !important;
   }
 
   .headline {
@@ -287,5 +289,24 @@
 
   .hero_description {
     font-size: 18px;
+  }
+
+  .service_title {
+    font-size: 38px;
+  }
+
+  .section_description {
+    width: 100% !important;
+    margin: 0 2rem !important;
+    text-align: center !important;
+    font-size: 14px !important;
+  }
+
+  .service_container {
+    row-gap: 2rem !important;
+  }
+
+  .service_item {
+    width: 100%;
   }
 }
