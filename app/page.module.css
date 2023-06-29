@@ -112,7 +112,7 @@
   background: #000;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .header {
     padding: 0 2rem !important;
     height: 50px;
@@ -151,5 +151,33 @@
 
   .header_input:checked ~ .nav_links .link {
     margin-top: 2rem !important;
+  }
+
+  .hero {
+    padding: 2rem;
+  }
+
+  .hero_image {
+    display: none;
+  }
+
+  .hero_text {
+    width: 100%;
+  }
+
+  .circle,
+  .fleur,
+  .sheet,
+  .sheet_1 {
+    display: none;
+  }
+
+  .headline {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .hero_description {
+    font-size: 18px;
   }
 }
