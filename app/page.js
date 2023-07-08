@@ -15,6 +15,14 @@ import rameau from './assets/rameau.svg'
 import rameauInvercer from './assets/invercer-rameau.svg'
 import tor from './assets/tor.svg'
 import dish from './assets/dish.png'
+import big_tor from './assets/big-tor.svg'
+import check from './assets/check.svg'
+import chef from './assets/chef.png'
+import decoration from './assets/decoration.png'
+import vector from './assets/vectors.svg'
+import vector1 from './assets/group_2.svg'
+import fleur1 from './assets/fleur1.svg'
+import fleur2 from './assets/fleur2.svg'
 
 export default function Home() {
   return (
@@ -191,7 +199,14 @@ export default function Home() {
                 width={100}
               />
               <Image
-                alt="Service"
+                alt="Background Oignon"
+                className={styles.tor1}
+                height={102}
+                src={tor}
+                width={100}
+              />
+              <Image
+                alt="Background Fleur"
                 className={styles.service_item_image}
                 height={102}
                 src={dish}
@@ -224,6 +239,228 @@ export default function Home() {
                 eiusmod tempor
               </p>
             </div>
+          </div>
+        </section>
+        <section className={styles.teams_section}>
+          <Image
+            alt="Icon Facebook"
+            className={styles.big_tor}
+            height={303}
+            src={big_tor}
+            width={290}
+          />
+          <Image
+            alt="Icon Facebook"
+            className={styles.big_tor_small}
+            height={124}
+            src={big_tor}
+            width={118}
+          />
+          <Image
+            alt="Background Fleur"
+            className={styles.rameau_teams}
+            height={212}
+            src={vector}
+            width={224}
+          />
+          <Image
+            alt="Background Fleur"
+            className={styles.sheet_teams}
+            height={212}
+            src={vector1}
+            width={224}
+          />
+          <Image
+            alt="Background Small Fleur"
+            className={styles.small_fleur_teams}
+            height={81}
+            src={fleur1}
+            width={90}
+          />
+          <Image
+            alt="Background Small Fleur"
+            className={styles.small_fleur2_teams}
+            height={78}
+            src={fleur2}
+            width={77}
+          />
+          <div className={styles.teams_section_text}>
+            <h2 className={styles.teams_title}>Notre cheffe experte</h2>
+            <p className={styles.teams_description}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul className={styles.list_chef}>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Check"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Background Fleur"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Background Fleur"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Background Fleur"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Background Fleur"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Background Fleur"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+            </ul>
+          </div>
+          <Image
+            alt="Cheffe"
+            className={styles.chef}
+            height={500}
+            src={chef}
+            width={528}
+          />
+          <Image
+            alt="Décoration"
+            className={styles.decoration}
+            height={500}
+            src={decoration}
+            width={528}
+          />
+          <div className={styles.teams_section_text}>
+            <h2 className={styles.teams_title}>
+              Une décoration hors du commun
+            </h2>
+            <p className={styles.teams_description}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul className={styles.list_chef}>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Check"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Background Fleur"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Background Fleur"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Background Fleur"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Background Fleur"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+              <li className={styles.list_item}>
+                <Image
+                  alt="Background Fleur"
+                  className={styles.check}
+                  height={16}
+                  src={check}
+                  width={16}
+                />
+                <p className={styles.category}>
+                  Lorem ipsum dolor sit amet, consectetur{' '}
+                </p>
+              </li>
+            </ul>
           </div>
         </section>
       </main>

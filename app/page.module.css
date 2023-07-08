@@ -157,6 +157,15 @@
   padding: 2rem 0 !important;
 }
 
+.teams_title {
+  color: #000;
+  font-size: 48px;
+  font-family: David Libre;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .service_description {
   color: #5c6574;
   text-align: center;
@@ -218,6 +227,99 @@
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+}
+
+.teams_section {
+  position: relative;
+  padding: 0 3rem 3rem 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.big_tor {
+  position: absolute;
+  fill: #101a24;
+  top: 0;
+  left: 10%;
+  transform: translate(0, 10%);
+  opacity: 0.10000000149011612;
+}
+
+.big_tor_small {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(10%, 50%);
+  opacity: 0.10000000149011612;
+}
+
+.rameau_teams {
+  position: absolute;
+  top: 55%;
+  right: 15%;
+  transform: translate(15%, 55%);
+  opacity: 0.10000000149011612;
+}
+
+.sheet_teams {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  transform: translate(0, 10%);
+  opacity: 0.10000000149011612;
+}
+
+.small_fleur_teams {
+  position: absolute;
+  left: 35%;
+  top: 35%;
+  transform: translate(35%, 35%);
+}
+
+.small_fleur2_teams {
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  transform: translate(45%, 40%);
+}
+
+.teams_section_text {
+  width: 47%;
+}
+
+.teams_section_text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+}
+
+.category {
+  font-size: 13px;
+  width: 85%;
+}
+
+.list_chef {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.list_item {
+  width: 47%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
 }
 
 @media screen and (max-width: 800px) {
