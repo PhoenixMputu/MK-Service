@@ -411,4 +411,21 @@
   .service_item {
     width: 100%;
   }
+
+  .teams_section {
+    padding: 0 2rem 2rem 2rem;
+    flex-direction: row-reverse !important;
+    row-gap: 3rem !important;
+  }
+
+  .teams_section_text {
+    width: 100%;
+    row-gap: 1.5rem !important;
+  }
+
+  .decoration,
+  .chef {
+    width: 100% !important;
+    height: auto !important;
+  }
 }
